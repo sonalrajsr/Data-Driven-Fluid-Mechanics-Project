@@ -45,8 +45,6 @@ We applied Gaussian Blur and Non-Local Means (NLM) denoising techniques to noisy
 
 Here are side-by-side comparisons illustrating the before and after effects of the denoising techniques on an image with 60% Gaussian noise:
 
-![Denoising Comparison]
-
 ### POD Analysis
 
 Proper Orthogonal Decomposition (POD) was performed to identify dominant flow modes in the original, noisy, and denoised images. The analysis revealed:
