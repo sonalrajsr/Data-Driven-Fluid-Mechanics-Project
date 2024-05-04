@@ -23,6 +23,44 @@ The procedure commences by gathering flow field photographs, each of which captu
 The SVD method decomposes the snapshot matrix into three matrices: U, Σ, and Vᵀ. In this context, U denotes the spatial modes, Σ corresponds to the strength or energy of each mode, and Vᵀ represents the temporal coefficients. This decomposition enables us to prioritise the modes based on their energy content, which is crucial for determining the most impactful modes in the flow.
 
 The results obtained from the Proper Orthogonal Decomposition (POD) using Singular Value Decomposition (SVD) offer valuable insights into the primary patterns and structures present in the flow field. These results effectively highlight important features such as vortices or waves that have a substantial impact on the behaviour of the fluid. This study not only enhances the comprehension of fluid dynamics but also enhances computing efficiency and provides valuable insights for future research and development in fluid mechanics.
+## Results
+
+This section presents the outcomes of the implemented noise addition, noise reduction techniques, and POD analysis on the fluid dynamics images. Below are summaries and visualizations demonstrating the effectiveness of different methods in handling and analyzing noisy images.
+
+### Noise Addition Effects
+
+We added Gaussian and Speckle noise to clean images from fluid dynamics experiments to simulate varying conditions. Below are examples showing the effects of different noise levels:
+
+- **Gaussian Noise**: Images with 20%, 40%, 60%, and 80% Gaussian noise show progressively more obscured details and increased visual distortion.
+- **Speckle Noise**: Similarly, Speckle noise at these levels introduced a grainy appearance, making finer details harder to discern.
+
+![Noise Addition Comparison](/path/to/noise_comparison_image.jpg)
+
+### Noise Reduction Techniques
+
+We applied Gaussian Blur and Non-Local Means (NLM) denoising techniques to noisy images. The results show significant improvements:
+
+- **Gaussian Blur**: Effective at reducing high-frequency noise but tends to blur edges, losing some important image details.
+- **Non-Local Means Denoising**: Superior in preserving edges and fine details while effectively reducing noise.
+
+Here are side-by-side comparisons illustrating the before and after effects of the denoising techniques on an image with 60% Gaussian noise:
+
+![Denoising Comparison](/path/to/denoising_comparison_image.jpg)
+
+### POD Analysis
+
+Proper Orthogonal Decomposition (POD) was performed to identify dominant flow modes in the original, noisy, and denoised images. The analysis revealed:
+
+- **Impact of Noise**: Noise significantly affects the accuracy of flow mode identification, introducing errors and inconsistencies in the lower energy modes.
+- **Recovery with Denoising**: Post-denoising, the flow modes closely resembled those obtained from clean images, demonstrating the efficacy of our noise reduction approaches.
+
+![POD Analysis Results](/path/to/pod_analysis_results_image.jpg)
+
+## Conclusion
+
+The experiments and analyses confirm that while noise addition can significantly degrade image quality and analysis accuracy, the application of sophisticated denoising techniques and robust analysis methods like POD can effectively mitigate these effects. Future work may explore more advanced denoising algorithms and their impact on automated image analysis tasks in fluid dynamics and other fields.
+
+
 ## Installation and Setup
 
 ### Prerequisites
