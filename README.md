@@ -20,4 +20,4 @@ The aim of this project is to extract meaningful insights from video frames capt
 ### Installation
 Clone this repository to your local machine using:
 ```bash
-git clone https://github.com/<your-username>/<repository-name>.git
+git clone https://github.com/sonalrajsr/Data-Driven-Fluid-Mechanics-Project.git
