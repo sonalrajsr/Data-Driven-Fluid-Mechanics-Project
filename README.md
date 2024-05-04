@@ -21,9 +21,3 @@ The aim of this project is to extract meaningful insights from video frames capt
 Clone this repository to your local machine using:
 ```bash
 git clone https://github.com/sonalrajsr/Data-Driven-Fluid-Mechanics-Project.git
-
-### Directory Structure
-
-- frames/: Contains extracted frames from the original video.
-- noise_x/: Directories such as noise_20, noise_40, etc., containing frames with added noise.
-- denoised_images_x/: Contains frames after applying denoising techniques.
