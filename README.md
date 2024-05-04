@@ -1,8 +1,5 @@
 
 # Data-Driven-Fluid-Mechanics-Project
-https://drive.google.com/file/d/1WiSbCQmxu9ugEideLkcdAof1GA0uYXXT/view?usp=sharing
-# Fluid Dynamics Image Analysis using POD
-
 This repository hosts a Python project that utilizes image processing and Proper Orthogonal Decomposition (POD) to analyze fluid dynamics from video data. The project includes steps for noise addition, noise reduction, and flow analysis through computational methods in image processing and machine learning.
 
 ## Project Overview
