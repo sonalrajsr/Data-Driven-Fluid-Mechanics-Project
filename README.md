@@ -34,7 +34,7 @@ We added Gaussian and Speckle noise to clean images from fluid dynamics experime
 - **Gaussian Noise**: Images with 20%, 40%, 60%, and 80% Gaussian noise show progressively more obscured details and increased visual distortion.
 - **Speckle Noise**: Similarly, Speckle noise at these levels introduced a grainy appearance, making finer details harder to discern.
 
-![Noise Addition Comparison](/path/to/noise_comparison_image.jpg)
+![Noise Addition Comparison]
 
 ### Noise Reduction Techniques
 
@@ -45,7 +45,7 @@ We applied Gaussian Blur and Non-Local Means (NLM) denoising techniques to noisy
 
 Here are side-by-side comparisons illustrating the before and after effects of the denoising techniques on an image with 60% Gaussian noise:
 
-![Denoising Comparison](/path/to/denoising_comparison_image.jpg)
+![Denoising Comparison]
 
 ### POD Analysis
 
