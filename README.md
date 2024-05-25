@@ -22,7 +22,7 @@ Ensure you have Python 3.x installed along with the following Python libraries:
 ### Installation Instructions
 Clone the repository to your local machine:
 ```bash
-git clone https://github.com/yourgithubusername/Data-Driven-Fluid-Mechanics-Project.git
+git clone https://github.com/sonalrajsr/Data-Driven-Fluid-Mechanics-Project.git
 ```
 ## Dataset
 Access the dataset used in this project via the following link:
