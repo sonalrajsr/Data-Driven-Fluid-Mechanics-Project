@@ -29,6 +29,8 @@ Access the dataset used in this project via the following link:
 ```bash
 https://drive.google.com/file/d/1WiSbCQmxu9ugEideLkcdAof1GA0uYXXT/view
 ```
+![Data Overview](frames/frame_0001.jpg)
+![Data Overview](frames/frame_00075.jpg)
 
 ## Directory Structure
 - frames/: Contains extracted frames from the original video.
